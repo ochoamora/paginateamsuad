@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <title> TEM SUAD Home</title>
+    <link rel="icon" href="mw3.png">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212;
+            color: #ffffff;
+        }
+
+        header {
+            background-color: #1f1f1f;
+            padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #ADFF2F;
+            margin: 0;
+        }
+
+        header nav {
+            margin-top: 1rem;
+        }
+
+        nav a {
+            color: #ADFF2F;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1.2rem;
+        }
+
+        nav a:hover {
+            color: #32CD32;
+        }
+
+        .contenedor {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .introduccion, .mision-vision, .equipo {
+            margin-bottom: 3rem;
+        }
+
+        .introduccion h2, .mision-vision h2, .equipo h2 {
+            color: #ADFF2F;
+            margin-bottom: 1rem;
+            text-align: center;
+        }
+
+        .introduccion p, .mision-vision p {
+            text-align: justify;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .equipo {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .miembro {
+            background-color: #1f1f1f;
+            border-radius: 8px;
+            padding: 1rem;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+        .editar {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .editar a {
+            background-color: #ADFF2F;
+            color: #121212;
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .editar a:hover {
+            background-color: #ADFF2F;
+        }
+
+        .miembro img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .miembro h3 {
+            margin: 0 0 0.5rem;
+            color: #ADFF2F;
+        }
+
+        .miembro p {
+            color: #AAAAAA;
+        }
+
+        footer {
+            background-color: #1f1f1f;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Acerca de </h1>
+        <nav>
+            <a href="index.html"> Home </a>
+            <a href="catalogo.html"> Catálogo </a>
+            <a href="caracteristicas.html"> Características </a>
+            <a href="informacion.html"> Información </a>
+            <a href="#acerca de.html"> Acerca de </a>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <!-- Introducción -->
+        <section class="introduccion">
+            <h2>Bienvenido a Tean SUAD</h2>
+            <p>En Tean SUAD, somos apasionados de los videojuegos y de la cultura gamer. Nos dedicamos a proporcionar contenido de calidad sobre los últimos lanzamientos, análisis, y noticias del mundo de los videojuegos. Nuestro objetivo es crear una comunidad donde los entusiastas puedan interactuar, aprender y compartir su amor por los videojuegos.</p>
+        </section>
+
+        <!-- Misión y Visión -->
+        <section class="mision-vision">
+            <h2>Nuestra Misión y Visión</h2>
+            <p><strong>Misión:</strong> Ofrecer a nuestra comunidad la mejor experiencia y conocimientos sobre videojuegos, manteniéndonos al tanto de las últimas tendencias y ofreciendo contenido valioso y entretenido.</p>
+            <p><strong>Visión:</strong> Ser la plataforma de referencia para los gamers, creando un espacio único que fomente la pasión, el aprendizaje y el intercambio entre los aficionados de todo el mundo.</p>
+        </section>
+
+        <!-- Equipo -->
+        <section class="equipo">
+            <!-- Miembro 1 -->
+            <div class="miembro">
+                <img src="miguel-modified.png" alt="Miembro 1">
+                <h3>Jose miguel ochoa</h3>
+                <p>Fundador y Director</p>
+            </div>
+            <!-- Miembro 2 -->
+            <div class="miembro">
+                <img src="katire.png" alt="Miembro 2">
+                <h3>Jose herrera </h3>
+                <p>Analista de Videojuegos</p>
+            </div>
+            <!-- Miembro 3 -->
+            <div class="miembro">
+                <img src="marcelomodified.png" alt="Miembro 3">
+                <h3>Marel colombo</h3>
+                <p>Diseñador Web</p>
+            </div>
+            <!-- Miembro 4 -->
+            <div class="miembro">
+                <img src="jose.png" alt="Miembro 4">
+                <h3>Jose manuel castaneda</h3>
+                <p>Community Manager</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>© 2024 TEM SUAD  Gamer. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
